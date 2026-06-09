@@ -130,3 +130,44 @@ th, td {
     padding:  10px;
     text-align: left;
 }
+
+.skill{
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.skill-bar{
+    height: 100%;
+    background: green;
+    border-radius: 10px;
+}
+
+.html{
+    width: 80%;
+}
+
+.css{
+    width: 70%;
+}
+
+.git{
+    width: 50%;
+}
+
+.javascript{
+    width: 30%;
+    background: red;
+}
+
+.github{
+    width: 60%;
+    background: orange;
+}
+
+@media  (max-width: 768px){
+    .projekty{
+        flex-direction: column;
+    }
+}
