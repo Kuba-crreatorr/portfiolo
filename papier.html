@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Papier Kamień Nożyce</title>
+        <link rel="stylesheet" href="papier.css">
+    </head>
+    <body>
+
+        <div class="gra">
+
+            <h1>Papier Kamień Nozyce</h1>
+
+            <button onclick="gra('papier')">📄 Papier</button>
+
+            <button onclick="gra('Kamień')">🪨 Kamień</button>
+
+            <button onclick="gra('Nozyce')">✂️ Nozyce</button>
+
+            <p id="wynik"></p>
+            <p id="statystyki">
+                Wygrane:0 | Przegrane:0 | Remis:0 
+            </p>
+
+
+            <button onclick="resetuj()">
+                Reset statystyk
+            </button>
+        </div>
+
+        <script src="papier.js"></script>
+
+    </body>
+</html>
