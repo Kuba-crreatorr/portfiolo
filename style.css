@@ -23,7 +23,7 @@ a:hover{
 
 ul{ 
     background: white;
-    padding: 20px;
+    padding: 20px 40px;
     border-radius: 10px;    
 }
 .hero{
@@ -87,9 +87,9 @@ nav a:hover {
 }
 
 footer {
+    text-align: center;
     background: white;
     padding: 20px;
-    text-align: center;
     border-radius: 10px;
     margin-top: 30px;
 }
@@ -146,27 +146,31 @@ th, td {
 
 .skill{
     background: #ddd;
-    height: 20px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    height: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .skill-bar{
     height: 100%;
-    background: green;
-    border-radius: 10px;
+    border-radius: 20px;
+    transition: 1s;
 }
 
 .html{
     width: 80%;
+    background: green;
 }
 
 .css{
     width: 70%;
+    background: green;
 }
 
 .git{
     width: 50%;
+    background: green;
 }
 
 .javascript{
