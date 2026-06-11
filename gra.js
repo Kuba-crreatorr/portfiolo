@@ -37,7 +37,7 @@ function sprawdz(){
 }
 
 function nowaGra(){
-    wylosowana = Math.floor(Math.random() * 10) +1;
+    wylosowana =     Math.floor(Math.random() * 10) +1;
     
     proby = 0;
     
