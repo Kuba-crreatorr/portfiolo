@@ -200,3 +200,42 @@ th, td {
         flex-direction: column;
     }
 }
+
+.dark{
+    background-color: #111827;
+    color: white;
+}
+
+.dark nav{
+    background: #1f2937;
+}
+
+.dark .projekt{
+    background: #1f2937;
+    color: white;
+}
+
+.dark section{
+    background: #1f2937;
+    color: white;
+}
+
+.dark footer{
+    background: #1f2937;
+    color: white;
+}
+
+.dark .hero{
+    background: #1f2937;
+    color: white;
+}
+
+.dark section{
+    background: #1f2937;
+    color: white;
+}
+
+.dark ul {
+    background: #1f2937;
+    color: white;
+}

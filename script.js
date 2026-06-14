@@ -25,3 +25,8 @@ function pokazImie(){
                     " Cześć " + imie ;
         }
 }
+
+function zmienMotyw(){
+    
+    document.body.classList.toggle("dark");
+}
