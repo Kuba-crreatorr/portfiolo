@@ -75,6 +75,7 @@ nav a:hover {
 
 .projekty{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -100,13 +101,17 @@ footer {
     color: white;
     padding: 20px;
     border-radius: 10px;
-    flex: 1;
+    flex: 0 0 250px;
     text-decoration: none;
-    transition: 0,7s;  
+    transition: 0,7s;
+    width: 250px; 
+     
 }
 
 .projekt:hover{
-    transform: translateY(-10px);
+
+    transform: translateY(-15px);
+    transform: scale(1,03s);
 }
 
 .projekt a {

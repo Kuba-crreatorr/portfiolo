@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kalkulator</title>
+        <link rel="stylesheet" href="kalkulator.css">
+   </head>
+   <body>
+    <div class="kalkulator">
+        
+        <h1>Kalkulator</h1>
+
+        <input type="text" id="ekran" readonly>
+
+        <div class="przyciski">
+
+
+<button onclick="dodaj('7')">7</button>
+<button onclick="dodaj('8')">8</button>
+<button onclick="dodaj('9')">9</button>
+<button onclick="dodaj('/')">/</button>
+
+
+<button onclick="dodaj('4')">4</button>
+<button onclick="dodaj('5')">5</button>
+<button onclick="dodaj('6')">6</button>
+<button onclick="dodaj('*')">*</button>
+
+
+<button onclick="dodaj('1')">1</button>
+<button onclick="dodaj('2')">2</button>
+<button onclick="dodaj('3')">3</button>
+<button onclick="dodaj('-')">-</button>
+
+
+<button onclick="dodaj('0')">0</button>
+<button class="equals" onclick="wylicz()">=</button>
+<button onclick="wyczysc()">C</button>
+<button onclick="dodaj('+')">+</button>
+        </div>
+
+
+
+    </div>
+
+        <script src="kalkulator.js"></script>
+   </body>
+   
+</html>
